@@ -155,6 +155,47 @@
                                         </li>
 
 
+                                        <li>
+                                            <a href="{{ route('about.index') }}">
+                                                @if (session('key') == 'jp')
+                                                    会社概要
+                                                @elseif (session('key') == 'mm')
+                                                    ကုမ္ပဏီအကြောင်း
+                                                @else
+                                                    About Us
+                                                @endif
+                                            </a>
+                                        </li>
+
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript::void(0)">
+                                                @if (session('key') == 'jp')
+                                                    パートナー
+                                                @elseif (session('key') == 'mm')
+                                                    Partners
+                                                @else
+                                                    Partners
+                                                @endif
+                                            </a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="https://goodspeed-group.co.jp/" target="_blank">
+                                                        <img src="{{ asset('data/gs_logo.png') }}" alt=""
+                                                            style="width: 80px;">
+                                                        Good Speed Group
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="https://gsjmbridge-mm.com/" target="_blank">
+                                                        <img src="{{ asset('data/gsjm.jpg') }}" alt=""
+                                                            style="width: 50px;">
+                                                            &nbsp; &nbsp; &nbsp; &nbsp; 
+                                                        GSJM
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
 
                                         <li>
                                             <a href="{{ route('myanmar.index') }}">
@@ -168,6 +209,17 @@
                                             </a>
                                         </li>
 
+                                        <li>
+                                            <a href="{{ route('recruitment_flow.index') }}">
+                                                @if (session('key') == 'jp')
+                                                    求人の流れ
+                                                @elseif (session('key') == 'mm')
+                                                    Recruitment flow
+                                                @else
+                                                    Recruitment flow
+                                                @endif
+                                            </a>
+                                        </li>
 
                                         <li>
                                             <a href="{{ route('activities.index') }}">
