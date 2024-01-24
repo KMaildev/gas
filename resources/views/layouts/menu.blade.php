@@ -177,7 +177,7 @@
                                                     Partners
                                                 @endif
                                             </a>
-                                            <ul class="sub-menu">
+                                            <ul class="sub-menu" style="min-width: 300px;">
                                                 <li>
                                                     <a href="https://goodspeed-group.co.jp/" target="_blank">
                                                         <img src="{{ asset('data/gs_logo.png') }}" alt=""
@@ -190,8 +190,7 @@
                                                     <a href="https://gsjmbridge-mm.com/" target="_blank">
                                                         <img src="{{ asset('data/gsjm.jpg') }}" alt=""
                                                             style="width: 50px;">
-                                                            &nbsp; &nbsp; &nbsp; &nbsp; 
-                                                        GSJM
+                                                        GSJM自動車整備研修センター
                                                     </a>
                                                 </li>
                                             </ul>
