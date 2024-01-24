@@ -41,7 +41,6 @@
     <section>
         <div class="container">
             <div class="space-60 d-none d-md-block"></div>
-
             @foreach ($activities as $activity)
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2 text-center">

@@ -8,7 +8,14 @@
     <title>
         ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED) - @yield('title')
     </title>
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon-aqua.png') }}" />
+
+    <meta name="keywords" content="ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED)" />
+    <meta name="author" content="ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED)" />
+    <meta name="robots" content="ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED)" />
+    <meta name="description" content="ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED)" />
+    <link rel="shortcut icon" href="{{ asset('data/company/logo.png') }}" />
+    <meta property="og:image" content="{{ asset('data/company/logo.png') }}" />
+
     <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}" />
@@ -64,7 +71,7 @@
             "use strict";
             Royal_Preloader.config({
                 mode: 'logo',
-                logo: 'images/05_Black.svg',
+                logo: "{{ asset('data/company/logo.png') }}",
                 logo_size: [160, 75],
                 showProgress: true,
                 showPercentage: true,

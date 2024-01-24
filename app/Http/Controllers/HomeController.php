@@ -10,6 +10,8 @@ class HomeController extends Controller
 {
     public function index()
     {
+        session(['key' => 'jp']);
+        
         $activities = Activitie::all();
         $teams = Team::all();
         return view('welcome', compact('activities', 'teams'));

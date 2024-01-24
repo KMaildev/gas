@@ -10092,45 +10092,45 @@ svg {
   font-size: 13px;
   line-height: 1;
   font-weight: 500;
-  background-color: #52C5B6;
+  background-color: #F9333C;
   border-radius: 0px 0px 0px 0px;
   padding: 13px 28px 12px 28px;
   border: none;
 }
 .finance-top-news .octf-btn:hover, .finance-top-news .octf-btn:focus {
-  background-color: #30344D;
+  background-color: #2f399c;
 }
 .finance-header .topbar-right-icon a {
-  fill: #52C5B6;
+  fill: #F9333C;
   font-size: 22px;
 }
 .home-finance a:hover {
-  color: #52C5B6;
+  color: #F9333C;
 }
 .finance-header .topbar-right-desc h6 {
   margin-bottom: 0;
 }
 .finance-header .octf-main-header {
-  background-color: #30344D;
+  background-color: #2f399c;
 }
 .finance-header .octf-main-header .main-navigation>ul>li>a:hover, .finance-header .main-navigation ul > li.menu-item-has-children:hover > a,
 .finance-header .main-navigation ul li li a:hover, .finance-header .main-navigation ul ul.sub-menu li.current-menu-item > a, 
 .finance-header .main-navigation ul ul.sub-menu li.current-menu-ancestor > a, .finance-header .main-navigation ul > li.menu-item-has-children:hover > a:after,
 .finance-header .main-navigation ul > li.menu-item-has-children > a:hover:after {
-  color: #52C5B6;
+  color: #F9333C;
 }
 .finance-header .main-navigation > ul > li:before {
-  background-color: #52C5B6;
+  background-color: #F9333C;
 }
 .finance-header .cart-contents .count, .finance-header .search-form .search-submit {
-  background-color: #52C5B6;
+  background-color: #F9333C;
 }
 .finance-header .woocommerce .amount, .finance-header .woocommerce-mini-cart__total .amount {
-  color: #52C5B6;
+  color: #F9333C;
 }
 .finance-header .woocommerce-mini-cart__buttons a.button.wc-forward {
-  background-color: #52C5B6;
-  border: 1px solid #52C5B6;
+  background-color: #F9333C;
+  border: 1px solid #F9333C;
 }
 .finance-header .woocommerce-mini-cart__buttons a.button.wc-forward:hover {
   background: #1b1d21;
@@ -10142,7 +10142,7 @@ svg {
   color: #fff;
 }
 .home-finance .panel-list-item .panel-list-icon, .home-finance .panel-list-item .panel-list-icon a {
-  fill: #52C5B6;
+  fill: #F9333C;
 }
 .home-finance .side-panel-social a {
   color: #fff;
@@ -10183,8 +10183,8 @@ svg {
   height: 80px;
   line-height: 80px;
   color: #FFFFFF;
-  border-color: #52C5B6;
-  background: #52C5B6;
+  border-color: #F9333C;
+  background: #F9333C;
 }
 .finance-banner .btn-play:hover {
   color: #fff;
@@ -10228,26 +10228,26 @@ svg {
 }
 .finance-quote-form .octf-btn {
   width: 100%;
-  background: #52c5b6;
-  border-color: #52c5b6;
+  background: #F9333C;
+  border-color: #F9333C;
 }
 .finance-quote-form .octf-btn:hover, .finance-quote-form .octf-btn:focus {
   background: #1b1d21;
   border-color: #1b1d21;
 }
 .finance-service-dark .icon-box-1 {
-  background: #30344D;
+  background: #2f399c;
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
   text-align: center;
 }
 .finance-service-dark .icon-box .icon-main {
-  background: #52C5B6;
+  background: #F9333C;
 }
 .finance-service-dark .icon-box .circle-animate {
   border-color: #FFFFFF4D;
 }
 .finance-service-dark .icon-box .circle-animate:after {
-  background: #52C5B6;
+  background: #F9333C;
 }
 .finance-service-dark .icon-box .icon-main svg {
   width: 38px;
@@ -10269,8 +10269,8 @@ svg {
   color: #FFFFFF;
 }
 .home-finance .ot-heading > span {
-  color: #52C5B6;
-  border-color: #52C5B6;
+  color: #F9333C;
+  border-color: #F9333C;
   font-size: 14px;
   font-weight: 600;
 }
@@ -10279,7 +10279,7 @@ svg {
   font-weight: 400;
 }
 .finance-service-main .icon-box {
-  background-color: #52C5B6;
+  background-color: #F9333C;
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
 }
 .finance-service-main .icon-box .circle-animate {
@@ -10292,7 +10292,7 @@ svg {
   background-color: #fff;
 }
 .finance-service-main .icon-box .icon-main svg {
-  fill: #30344D;
+  fill: #2f399c;
   width: 38px;
   height: 38px;
 }
@@ -10316,7 +10316,7 @@ svg {
   border-color: #1B1D2126;
 }
 .finance-service-light .icon-box .icon-main {
-  background: #30344D;
+  background: #2f399c;
 }
 .finance-service-light .icon-box .icon-main svg {
   fill: #fff;
@@ -10330,21 +10330,21 @@ svg {
   color: #5F5F5F;
 }
 .finance-service-light .icon-box .link-details {
-  color: #52c5b6;
+  color: #F9333C;
 }
 .finance-client .owl-item img:hover {
   filter: brightness( 0% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
 }
 .home-finance .icon-list .icon-main {
-  fill: #52C5B6;
+  fill: #F9333C;
 }
 .home-finance .icon-list .title-box {
-  color: #52C5B6;
+  color: #F9333C;
 }
 .home-finance .octf-btn {
-  background-color: #52C5B6;
+  background-color: #F9333C;
   color: #fff;
-  border-color: #52C5B6;
+  border-color: #F9333C;
 }
 .home-finance .octf-btn:hover, .home-finance .octf-btn:focus {
   background: #1b1d21;
@@ -10356,14 +10356,14 @@ svg {
   font-weight: 400;
 }
 .finance-principles {
-  background-color: #30344D;
+  background-color: #2f399c;
 }
 .finance-principles .ot-accordions {
   padding-right: 50px;
 }
 .finance-principles .ot-accordions .acc-item.current .acc-toggle {
-  background: #52C5B6;
-  border-color: #52C5B6;
+  background: #F9333C;
+  border-color: #F9333C;
   color: #fff;
 }
 .finance-principles .ot-accordions .acc-item .acc-toggle {
@@ -10382,7 +10382,7 @@ svg {
   padding: 40px 40px 0px 40px;
 }
 .finance-feature.icon-box .icon-main {
-  background: #52C5B6;
+  background: #F9333C;
   border-radius: 50px 50px 50px 50px;
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
 }
@@ -10401,13 +10401,13 @@ svg {
   font-weight: 500;
 }
 .bline-yes .finance-feature.icon-box-2 .content-box:after {
-  background: #52C5B6;
+  background: #F9333C;
 }
 .bline-yes.icon-left:after {
   display: none;
 }
 .finance-testi {
-  background-color: #30344D;
+  background-color: #2f399c;
 }
 .finance-testi-bg {
     background-image: url(images/image1-home5.jpg);
@@ -10420,7 +10420,7 @@ svg {
   padding-right: 140px;
 }
 .finance-testi-content .ot-testimonials .tphoto:after {
-  background-color: #52C5B6;
+  background-color: #F9333C;
 }
 .finance-testi-content .ot-testimonials-carousel-2 .ttext {
   color: #FFFFFF;
@@ -10432,14 +10432,14 @@ svg {
   font-family: Prata;
 }
 .finance-testi-content .ot-testimonials .t-head span {
-  color: #52C5B6;
+  color: #F9333C;
 }
 .finance-testi-content .owl-carousel .owl-nav {
   bottom: -95px;
   top: auto;
 }
 .finance-testi-content .ot-testimonials-carousel-2 .owl-nav button.owl-prev, .finance-testi-content .ot-testimonials-carousel-2 .owl-nav button.owl-next {
-  background: #52c5b6;
+  background: #F9333C;
   color: #fff;
 }
 .finance-testi-content .ot-testimonials .owl-nav button {
@@ -10462,22 +10462,22 @@ svg {
   font-weight: 400;
 }
 .home-finance .ot-team .team-info span {
-  color: #52C5B6;
+  color: #F9333C;
 }
 .octf-btn.finance-btn-dark {
-  background-color: #30344D;
-  border-color: #30344D;
+  background-color: #2f399c;
+  border-color: #2f399c;
 }
 .octf-btn.finance-btn-dark:hover, .octf-btn.finance-btn-dark:focus {
-  background-color: #52C5B6;
-  border-color: #52C5B6;
+  background-color: #F9333C;
+  border-color: #F9333C;
 }
 .coporate-counter.finance-counter {
   position: relative;
   z-index: 1;
 }
 .coporate-counter.finance-counter .container {
-  background-color: #52C5B6;
+  background-color: #F9333C;
   padding: 55px 100px;
   margin-top: -145px;
 }
@@ -10498,7 +10498,7 @@ svg {
   margin-top: -104px;
 }
 .finance-blog .post-box .post-cat a {
-  background-color: #52C5B6;
+  background-color: #F9333C;
   color: #fff;
 }
 .finance-blog .post-box .entry-title a {
@@ -10507,10 +10507,10 @@ svg {
 }
 .finance-blog .post-box .entry-title a:hover, .finance-blog .post-box .entry-meta a:hover, 
 .finance-blog .post-box .entry-meta .btn-details:hover a {
-  color: #52C5B6;
+  color: #F9333C;
 }
 .finance-blog .post-box .entry-meta .btn-details:hover {
-  border-color: #52C5B6;
+  border-color: #F9333C;
   background-color: rgba(82,197,182,0.1);
 }
 .finance-contact {
@@ -10525,7 +10525,7 @@ svg {
   background: none;
 }
 .home-finance #back-to-top {
-  background-color: #52C5B6;
+  background-color: #F9333C;
 }
 .finance-footer {
   background-color: #1F2238;
@@ -10538,13 +10538,13 @@ svg {
   background-color: #13364F;
 }
 .finance-footer .ft-list-icon a:hover {
-  background-color: #52C5B6;
+  background-color: #F9333C;
 }
 .finance-footer .footer-contact svg {
-  fill: #52C5B6;
+  fill: #F9333C;
 }
 .finance-footer .footer-contact h6 a:hover {
-  color: #52C5B6;
+  color: #F9333C;
 }
 .finance-footer .footer-contact p {
   color: #FFFFFF;

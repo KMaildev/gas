@@ -18,6 +18,17 @@
                                     Contact Us
                                 @endif
                             </a>
+
+                            {{-- <a href="https://gsjmbridge-mm.com/en" class="text-white">
+                                <img src="https://gsjmbridge-mm.com/data/us.png" alt=""
+                                    style="width: 43px; height: auto; padding: 2px;">
+                            </a>
+
+                            <a href="https://gsjmbridge-mm.com/jp" class="text-white">
+                                <img src="https://gsjmbridge-mm.com/data/japan.png" alt=""
+                                    style="width: 43px; height: auto; padding: 2px;">
+                            </a> --}}
+
                         </div>
                     </div>
                 </div>
@@ -32,7 +43,7 @@
                     <div class="col-md-3 align-self-center">
                         <div class="site-logo">
                             <a href="{{ route('home') }}">
-                                <img src="{{ asset('data/company/logo.png') }}" alt="">
+                                <img src="{{ asset('data/company/logo.png') }}" alt="" style="width: 100%;">
                             </a>
                         </div>
                     </div>
@@ -250,77 +261,14 @@
 
 
                             <div class="octf-col cta-col text-right">
-                                <!-- Call To Action -->
                                 <div class="octf-btn-cta">
-
-                                    <div class="octf-cart octf-cta-header">
-                                        <a class="cart-contents" href="cart-page.html" title="View your shopping cart">
-                                            <i class="ot-flaticon-business"></i>
-                                            <span class="count">2</span>
-                                        </a>
-
-                                        <div class="site-header-cart">
-                                            <div class="widget woocommerce widget_shopping_cart">
-                                                <div class="widget_shopping_cart_content">
-                                                    <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                                                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                                                            <a class="remove remove_from_cart_button"
-                                                                href="#">×</a>
-                                                            <a href="single-product.html"><img
-                                                                    src="{{ asset('assets/images/product/product-3.png') }}"
-                                                                    class="" alt="">Introduction
-                                                                to Business</a>
-                                                            <span class="quantity">1 × <span
-                                                                    class="amount"><bdi><span>$</span>39.99</bdi></span></span>
-                                                        </li>
-                                                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                                                            <a class="remove remove_from_cart_button"
-                                                                href="#">×</a>
-                                                            <a href="single-product.html"><img
-                                                                    src="{{ asset('assets/images/product/product-9.png') }}"
-                                                                    class="" alt="">Introduction
-                                                                to Marketing</a>
-                                                            <span class="quantity">1 × <span
-                                                                    class="amount"><bdi><span>$</span>49.99</bdi></span></span>
-                                                        </li>
-                                                    </ul>
-
-                                                    <p class="woocommerce-mini-cart__total total">
-                                                        <strong>Subtotal:</strong> <span
-                                                            class="amount"><bdi><span>$</span>89.98</bdi></span>
-                                                    </p>
-                                                    <p class="woocommerce-mini-cart__buttons buttons">
-                                                        <a href="cart-page.html" class="button wc-forward">View
-                                                            cart</a>
-                                                        <a href="checkout-page.html"
-                                                            class="button checkout wc-forward">Checkout</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="octf-search octf-cta-header">
-                                        <div class="toggle_search octf-cta-icons">
-                                            <i class="ot-flaticon-search-1"></i>
-                                        </div>
-                                        <!-- Form Search on Header -->
-                                        <div class="h-search-form-field collapse">
-                                            <div class="h-search-form-inner">
-                                                <form role="search" method="get" class="search-form">
-                                                    <input type="search" class="search-field"
-                                                        placeholder="Search..." value="" name="s">
-                                                    <button type="submit" class="search-submit"><i
-                                                            class="ot-flaticon-search-1"></i></button>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
 
                                     <div class="octf-sidepanel octf-cta-header">
                                         <div class="site-overlay panel-overlay"></div>
                                         <div id="panel-btn" class="panel-btn octf-cta-icons">
-                                            <i class="ot-flaticon-menu"></i>
+                                            <a href="mailto:info@gas-mm.com ">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
                                         </div>
                                     </div>
 
@@ -339,35 +287,13 @@
             <div class="row">
                 <div class="col-5">
                     <div class="mobile_logo">
-                        <a href="index.html">
-                            <img src="{{ asset('assets/images/04_Full_White.svg') }}" alt="Maxbizz">
+                        <a href="{{ route('home') }}">
+                            <img src="{{ asset('data/company/logo.png') }}" alt="" style="width: 100%;">
                         </a>
                     </div>
                 </div>
                 <div class="col-7 align-self-center text-right">
                     <div class="octf-btn-cta">
-                        <div class="octf-cart-mobile octf-cart octf-cta-header">
-                            <a class="cart-contents" href="cart-page.html" title="View your shopping cart">
-                                <i class="ot-flaticon-business"></i>
-                                <span class="count">2</span>
-                            </a>
-                        </div>
-                        <div class="octf-search-mobile octf-search octf-cta-header">
-                            <div class="toggle_search octf-cta-icons">
-                                <i class="ot-flaticon-search-1"></i>
-                            </div>
-                            <!-- Form Search on Header -->
-                            <div class="h-search-form-field collapse">
-                                <div class="h-search-form-inner">
-                                    <form role="search" method="get" class="search-form">
-                                        <input type="search" class="search-field" placeholder="Search..."
-                                            value="" name="s">
-                                        <button type="submit" class="search-submit"><i
-                                                class="ot-flaticon-search-1"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
                         <div class="octf-menu-mobile octf-cta-header text-left">
                             <div id="mmenu-toggle" class="mmenu-toggle">
                                 <button><i class="ot-flaticon-menu"></i></button>
@@ -378,76 +304,113 @@
                                     <a class="mmenu-close" href="#"><i
                                             class="ot-flaticon-arrowsoutline"></i></a>
                                     <div class="mobile-nav">
+
                                         <ul id="menu-mobile-main-menu" class="mobile_mainmenu none-style">
+
+                                            <li>
+                                                <a href="{{ route('home') }}">
+                                                    @if (session('key') == 'jp')
+                                                        ホーム
+                                                    @elseif (session('key') == 'mm')
+                                                        ပင်မစာမျက်နှာ
+                                                    @else
+                                                        Home
+                                                    @endif
+                                                </a>
+                                            </li>
+
+
+                                            <li>
+                                                <a href="{{ route('about.index') }}">
+                                                    @if (session('key') == 'jp')
+                                                        会社概要
+                                                    @elseif (session('key') == 'mm')
+                                                        ကုမ္ပဏီအကြောင်း
+                                                    @else
+                                                        About Us
+                                                    @endif
+                                                </a>
+                                            </li>
+
                                             <li class="menu-item-has-children">
-                                                <a href="index.html">Home</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="index.html">Home Main</a></li>
-                                                    <li><a href="index-2.html">Home Consulting</a></li>
-                                                    <li><a href="index-3.html">Home Business</a></li>
-                                                    <li><a href="index-4.html">Home Corporate</a></li>
-                                                    <li><a href="index-5.html">Home Finance</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children"><a href="#">Pages</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="about-us.html">About us</a></li>
-                                                    <li><a href="service.html">Our Services 1</a></li>
-                                                    <li><a href="service-2.html">Our Services 2</a></li>
-                                                    <li><a href="core-values.html">Our Core Values</a></li>
-                                                    <li><a href="our-team.html">Our team</a></li>
-                                                    <li><a href="single-team.html">Single team</a></li>
-                                                    <li class="menu-item-has-children"><a href="shop.html">Shop</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="shop.html">Product Catalog</a></li>
-                                                            <li><a href="single-product.html">Single
-                                                                    Product</a></li>
-                                                            <li><a href="cart-page.html">Cart</a></li>
-                                                            <li><a href="checkout-page.html">Checkout</a></li>
-                                                        </ul>
+                                                <a href="javascript::void(0)">
+                                                    @if (session('key') == 'jp')
+                                                        パートナー
+                                                    @elseif (session('key') == 'mm')
+                                                        Partners
+                                                    @else
+                                                        Partners
+                                                    @endif
+                                                </a>
+                                                <ul class="sub-menu" style="min-width: 300px;">
+                                                    <li>
+                                                        <a href="https://goodspeed-group.co.jp/" target="_blank">
+                                                            <img src="{{ asset('data/gs_logo.png') }}" alt=""
+                                                                style="width: 80px;">
+                                                            Good Speed Group
+                                                        </a>
                                                     </li>
-                                                    <li><a href="typography.html">Typography</a></li>
-                                                    <li><a href="faq.html">FAQS</a></li>
-                                                    <li><a href="404-error.html">404</a></li>
-                                                    <li><a href="cooming-soon.html">Coming Soon</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children"><a href="#">Portfolio</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
-                                                    <li><a href="portfolio-masonry.html">Portfolio Masonry</a>
-                                                    </li>
-                                                    <li><a href="portfolio-carousel.html">Portfolio
-                                                            Carousel</a></li>
-                                                    <li><a href="portfolio-details-1.html">Portfolio
-                                                            Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children"><a href="service.html">Services</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="service-detail-1.html">Marketing Research</a>
-                                                    </li>
-                                                    <li><a href="service-detail-2.html">Organizational
-                                                            Audit</a></li>
-                                                    <li><a href="service-detail-3.html">Business Consulting</a>
-                                                    </li>
-                                                    <li><a href="service-detail-4.html">Project Management</a>
-                                                    </li>
-                                                    <li><a href="service-detail-5.html">Support Function</a>
-                                                    </li>
-                                                    <li><a href="service-detail-6.html">Finance Planning</a>
+
+                                                    <li>
+                                                        <a href="https://gsjmbridge-mm.com/" target="_blank">
+                                                            <img src="{{ asset('data/gsjm.jpg') }}" alt=""
+                                                                style="width: 50px;">
+                                                            GSJM自動車整備研修センター
+                                                        </a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children"><a href="blog.html">Blog</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="blog.html">Blog Listing</a></li>
-                                                    <li><a href="post.html">Blog Post</a></li>
-                                                </ul>
+
+                                            <li>
+                                                <a href="{{ route('myanmar.index') }}">
+                                                    @if (session('key') == 'jp')
+                                                        ミャンマーとは？
+                                                    @elseif (session('key') == 'mm')
+                                                        ミャンマーとは？
+                                                    @else
+                                                        What is Myanmar?
+                                                    @endif
+                                                </a>
                                             </li>
-                                            <li class="current-menu-item"><a href="contact.html">Contacts</a>
+
+                                            <li>
+                                                <a href="{{ route('recruitment_flow.index') }}">
+                                                    @if (session('key') == 'jp')
+                                                        求人の流れ
+                                                    @elseif (session('key') == 'mm')
+                                                        Recruitment flow
+                                                    @else
+                                                        Recruitment flow
+                                                    @endif
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{ route('activities.index') }}">
+                                                    @if (session('key') == 'jp')
+                                                        ギャラリー
+                                                    @elseif (session('key') == 'mm')
+                                                        ဓာတ်ပုံများ
+                                                    @else
+                                                        Gallery
+                                                    @endif
+                                                </a>
+                                            </li>
+
+
+                                            <li>
+                                                <a href="{{ route('contact.index') }}">
+                                                    @if (session('key') == 'jp')
+                                                        お問い合わせ
+                                                    @elseif (session('key') == 'mm')
+                                                        ဆက်သွယ်ရန်
+                                                    @else
+                                                        Contact Us
+                                                    @endif
+                                                </a>
                                             </li>
                                         </ul>
+
                                     </div>
                                 </div>
                             </div>
